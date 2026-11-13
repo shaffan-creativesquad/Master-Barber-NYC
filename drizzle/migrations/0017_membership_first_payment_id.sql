@@ -1,0 +1,1 @@
+ALTER TABLE public.memberships ADD COLUMN IF NOT EXISTS first_payment_id text;

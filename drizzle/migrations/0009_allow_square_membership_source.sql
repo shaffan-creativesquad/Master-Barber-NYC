@@ -1,0 +1,2 @@
+ALTER TABLE public.memberships DROP CONSTRAINT IF EXISTS memberships_source_check;
+ALTER TABLE public.memberships ADD CONSTRAINT memberships_source_check CHECK (source IN ('stripe','manual','imported','square'));

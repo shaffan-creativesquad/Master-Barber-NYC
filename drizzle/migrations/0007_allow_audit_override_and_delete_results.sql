@@ -1,0 +1,2 @@
+ALTER TABLE public.checkins DROP CONSTRAINT checkins_result_check;
+ALTER TABLE public.checkins ADD CONSTRAINT checkins_result_check CHECK ((result = ANY (ARRAY['approved'::text, 'denied'::text, 'renewed'::text, 'member_deleted'::text, 'expiration_override'::text])));

@@ -1,0 +1,160 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1788308048824,
+      "tag": "0000_memberships_and_checkins",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1788311213676,
+      "tag": "0001_add_auto_renew_to_memberships",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1788400301987,
+      "tag": "0002_member_import_and_renewals",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1788403990711,
+      "tag": "0003_membership_expiration_edit_grace",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1788764925573,
+      "tag": "0004_cash_receipt_photos",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1788765905667,
+      "tag": "0005_add_customer_photo_url",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1788765940014,
+      "tag": "0006_member_photo_policies",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1788770110992,
+      "tag": "0007_allow_audit_override_and_delete_results",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1788893834772,
+      "tag": "0008_add_square_payment_columns",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1788974953084,
+      "tag": "0009_allow_square_membership_source",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1788980034025,
+      "tag": "0010_fix_square_membership_plan_ids",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1789061030779,
+      "tag": "0011_add_first_haircut_service",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1789074406822,
+      "tag": "0012_add_billing_invite_sent_at",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "7",
+      "when": 1789716216287,
+      "tag": "0013_checkin_barber_and_tip",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "7",
+      "when": 1790788212699,
+      "tag": "0014_membership_monthly_tip",
+      "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "7",
+      "when": 1790831112122,
+      "tag": "0015_billing_day_and_price_migration_log",
+      "breakpoints": true
+    },
+    {
+      "idx": 16,
+      "version": "7",
+      "when": 1791865261809,
+      "tag": "0016_checkins_duplicate_results",
+      "breakpoints": true
+    },
+    {
+      "idx": 17,
+      "version": "7",
+      "when": 1792069134591,
+      "tag": "0017_membership_first_payment_id",
+      "breakpoints": true
+    },
+    {
+      "idx": 18,
+      "version": "7",
+      "when": 1792135473667,
+      "tag": "0018_signup_day_billing",
+      "breakpoints": true
+    },
+    {
+      "idx": 19,
+      "version": "7",
+      "when": 1793076053563,
+      "tag": "0019_checkins_membership_canceled_result",
+      "breakpoints": true
+    },
+    {
+      "idx": 20,
+      "version": "7",
+      "when": 1793077186682,
+      "tag": "0020_membership_cancellation_refunds",
+      "breakpoints": true
+    },
+    {
+      "idx": 21,
+      "version": "7",
+      "when": 1793078302609,
+      "tag": "0021_payment_refunds",
+      "breakpoints": true
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+Disallow: /admin
+Disallow: /auth
+Disallow: /thank-you
+Disallow: /book/success
+
+Sitemap: https://masterbarbernyc.com/sitemap.xml

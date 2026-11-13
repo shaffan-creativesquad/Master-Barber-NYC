@@ -1,0 +1,1 @@
+ALTER TABLE public.services ADD COLUMN IF NOT EXISTS buffer_min INTEGER NOT NULL DEFAULT 0 CHECK (buffer_min >= 0 AND buffer_min <= 60);

@@ -1,0 +1,2 @@
+ALTER TABLE public.memberships
+  ADD COLUMN IF NOT EXISTS auto_renew boolean NOT NULL DEFAULT true;

@@ -1,0 +1,2 @@
+ALTER TABLE public.memberships DROP CONSTRAINT IF EXISTS memberships_billing_day_check;
+ALTER TABLE public.memberships ADD CONSTRAINT memberships_billing_day_check CHECK (billing_day BETWEEN 1 AND 31);
