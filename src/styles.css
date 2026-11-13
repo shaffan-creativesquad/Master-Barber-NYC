@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: "Vogue";
-  src: url("/__l5e/assets-v1/e1e14dd0-2918-4ea5-ab0c-d6b854c5ab90/Vogue.ttf") format("truetype");
+  src: url("/fonts/Vogue.ttf") format("truetype");
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
@@ -13,7 +13,7 @@
 
 @font-face {
   font-family: "Lazario";
-  src: url("/__l5e/assets-v1/a8e6dc59-6b12-437e-b7e2-1c692a8a2948/Lazario-Regular.ttf") format("truetype");
+  src: url("/fonts/Lazario-Regular.ttf") format("truetype");
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;

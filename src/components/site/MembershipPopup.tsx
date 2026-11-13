@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { X, Check, Crown } from "lucide-react";
-import popupImage from "@/assets/membership-popup.png.asset.json";
+import popupImage from "@/assets/membership-popup.png";
 import { membershipFromPrice } from "@/lib/site-data";
 
 const STORAGE_KEY = "mb-membership-popup-dismissed";
@@ -77,7 +77,7 @@ export function MembershipPopup() {
           </div>
           <div className="relative order-first min-h-[200px] md:order-last md:min-h-full">
             <img
-              src={popupImage.url}
+              src={popupImage}
               alt="Master Barber NYC client with a fresh fade and beard trim"
               className="h-full w-full object-cover md:absolute md:inset-0"
               loading="lazy"

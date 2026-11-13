@@ -1,6 +1,6 @@
-import logoAsset from "@/assets/master-barber-logo-white.avif.asset.json";
+import logoUrl from "@/assets/master-barber-logo.png";
 
-export const LOGO_URL = logoAsset.url;
+export const LOGO_URL = logoUrl;
 
 export const BUSINESS = {
   name: "Master Barber NYC",
